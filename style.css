@@ -1,0 +1,33 @@
+:root {
+    --main-text-color: #ffffff;
+}
+
+strong {
+    color: var(--main-text-color, white);
+}
+
+i {
+    color: var(--main-text-color, white);
+}
+
+a {
+    color: var(--main-text-color, white);
+    float: center;
+}
+
+a:hover {
+    color: rgb(219, 218, 218);
+}
+
+#search-bar {
+    background-color: rgb(255, 123, 123);
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    padding-top: 10px;
+}
+
+#footer-title {
+    color: rgb(219, 218, 218);
+}
