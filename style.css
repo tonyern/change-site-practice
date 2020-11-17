@@ -1,33 +1,72 @@
 :root {
     --main-text-color: #ffffff;
+	--main-icon-color: #ffffff;
+	--mouse-hover-color: rgb(219, 218, 218);
+	--main-navbar-footer-color: rgb(26, 26, 26);
 }
 
-strong {
-    color: var(--main-text-color, white);
+body {
+    font-family: sans-serif;
 }
 
-i {
-    color: var(--main-text-color, white);
-}
-
-a {
-    color: var(--main-text-color, white);
+/** Social Media Icons **/
+.row a {
+    color: var(--main-icon-color, white);
     float: center;
 }
 
+/** Hover mouse over anchor tags **/
 a:hover {
-    color: rgb(219, 218, 218);
+	color: var(--mouse-hover-color, gray);
 }
 
 #search-bar {
     background-color: rgb(255, 123, 123);
 }
 
+#nnn {
+	background-color: cornflowerblue;
+}
+
+nav {
+	margin: 10px 10px 10px 10px;
+	position: sticky;
+	z-index: 10;
+}
+
+.navbar-brand
+{
+	color: var(--main-text-color, white);
+	font-size: 50px;
+}
+
+.navbar-nav li a
+{
+	color: var(--main-text-color, white);
+	font-weight: 550;
+	text-align: center;
+}
+
+.fa-bars
+{
+	color: var(--main-text-color);
+	font-size: 30px;
+}
+
+.navbar-toggler
+{
+	outline: none;
+}
+
 footer {
-    background-color: rgb(26, 26, 26);
+    background-color: var(--main-navbar-footer-color, black);
     padding-top: 10px;
 }
 
-#footer-title {
-    color: rgb(219, 218, 218);
+footer p {
+    color: var(--mouse-hover-color, gray);
+}
+
+footer strong {
+    color: var(--main-icon-color, white);
 }
