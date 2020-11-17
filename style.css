@@ -1,6 +1,7 @@
 :root {
     --main-text-color: #ffffff;
 	--main-icon-color: #ffffff;
+	--main-theme-color: rgb(255, 123, 123);
 	--mouse-hover-color: rgb(219, 218, 218);
 	--main-navbar-footer-color: rgb(26, 26, 26);
 }
@@ -21,15 +22,10 @@ a:hover {
 }
 
 #search-bar {
-    background-color: rgb(255, 123, 123);
-}
-
-#nnn {
-	background-color: cornflowerblue;
+    background-color: var(--main-theme-color, red);
 }
 
 nav {
-	margin: 10px 10px 10px 10px;
 	position: sticky;
 	z-index: 10;
 }
@@ -37,7 +33,7 @@ nav {
 .navbar-brand
 {
 	color: var(--main-text-color, white);
-	font-size: 50px;
+	font-size: 45px;
 }
 
 .navbar-nav li a
@@ -56,6 +52,30 @@ nav {
 .navbar-toggler
 {
 	outline: none;
+}
+
+#banner {
+	margin-top: 30px;
+}
+
+.join-section {
+	background-color: var(--main-theme-color, red);
+	padding: 0px 0px 0px 0px;
+	margin: 30px 0px 30px 0px;
+}
+
+.join-title {
+	background-color: var(--main-navbar-footer-color, black);
+	color: var(--main-text-color, white);
+	padding: 10px 0px 10px 30px;
+}
+
+#email-form {
+	margin: 20px 20px 20px 20px;
+}
+
+#subscribe-btn {
+	margin-top: 30px;
 }
 
 footer {
