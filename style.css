@@ -10,6 +10,10 @@ body {
     font-family: sans-serif;
 }
 
+hr {
+	background-color: var(--main-theme-color, red);
+}
+
 /** Social Media Icons **/
 .row a {
     color: var(--main-icon-color, white);
@@ -66,7 +70,7 @@ nav {
 	border-width: thin;
 }
 
-.archive-section {
+.blog-section {
 	padding: 0px 0px 0px 0px;
 	margin: 30px 0px 30px 0px;
 	border-style: solid;
@@ -74,7 +78,7 @@ nav {
 }
 
 .dropdown-section {
-	margin: 10px 0px 10px 30px;
+	margin: 10px 10px 10px 10px;
 }
 
 .section-title {
