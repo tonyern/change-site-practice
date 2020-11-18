@@ -62,9 +62,22 @@ nav {
 	background-color: var(--main-theme-color, red);
 	padding: 0px 0px 0px 0px;
 	margin: 30px 0px 30px 0px;
+	border-style: solid;
+	border-width: thin;
 }
 
-.join-title {
+.archive-section {
+	padding: 0px 0px 0px 0px;
+	margin: 30px 0px 30px 0px;
+	border-style: solid;
+	border-width: thin;
+}
+
+.dropdown-section {
+	margin: 10px 0px 10px 30px;
+}
+
+.section-title {
 	background-color: var(--main-navbar-footer-color, black);
 	color: var(--main-text-color, white);
 	padding: 10px 0px 10px 30px;
